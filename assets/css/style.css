@@ -1,0 +1,220 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Metropolis;
+    /* font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left; */
+
+}
+
+/* .main-div{
+    height: 85vh;
+} */
+
+.gen-info {
+    display: flex;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cut-price {
+    text-decoration: line-through;
+    margin-left: 40px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.fds {
+    color: #007F61;
+
+}
+
+.total {
+    font-weight: 500;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #007F61;
+    border-radius: 4px 4px 4px 0px;
+    border: 1px solid #007F61;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.inner-box {
+    min-width: 340px;
+    margin-top: 6%;
+}
+
+.copywrite {
+    text-align: right;
+    width: 100%;
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 90%;
+    height: 2px;
+    background-color: #0002;
+}
+
+.tag-text {
+    width: 100%;
+    text-align: center;
+    color: #007F61;
+    font-family: Metropolis;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.offer {
+    position: absolute;
+    right: 30px;
+    font-family: Metropolis;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.popular-mark {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #007F61;
+    padding-bottom: 3px;
+
+}
+
+.item-box {
+    /* background: #000; */
+    margin-top: 15px;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+    outline: 1px solid #0002;
+    cursor: pointer;
+}
+
+.item-box.active {
+    border: 1px solid #007F61;
+}
+
+.item-size-info {
+    display: none;
+    transition: 0.6s;
+
+}
+
+.item-box.active .item-size-info {
+    display: block;
+    transition: 0.6s;
+}
+
+.item-des {
+    display: flex;
+
+}
+
+.item-info {
+    padding-left: 15px;
+}
+
+.item-quantity {
+    font-family: Metropolis;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.item-code {
+    font-family: Metropolis;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.sc-head {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    margin-left: 36px;
+    margin-top: 10px;
+}
+
+.sc-head div {
+    width: 69px;
+}
+
+.s-box {
+    margin-left: 22px;
+}
+
+.s-box select {
+    width: 66px;
+    height: 24px;
+    margin-top: 7px;
+}
+
+.labhash {
+    font-family: Inter;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+}
